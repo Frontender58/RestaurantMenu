@@ -1,0 +1,12 @@
+.btnOut {
+  margin-right: 20px;
+  margin-left: 22px;
+  width: 200px;
+  height: 42px;
+  color: #D58C51;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #161516;
+  border: 1px solid #D58C51;
+}

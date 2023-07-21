@@ -1,0 +1,80 @@
+.main {
+  padding: 1px;
+  background-color: #161516;
+  font-family: 'Montserrat';
+}
+
+.container {
+  width: 1325px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px auto 65px auto;
+  color: #FFFFFF;
+}
+
+.headerTitle {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+}
+
+.headerBasket {
+  display: flex;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: right;
+  align-items: center;
+}
+
+.headerBasketText {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.headerBasketBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #D58C51;
+  text-align: center;
+}
+
+.headerBasketBtn:hover {
+  background-color: #161516;
+}
+
+.headerBasketPic {
+  margin-top: 14px;
+  width: 21px;
+  height: 20px;
+}
+
+.basketPic {
+  color: #FFFFFF;
+}
+
+.productsList {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 200px);
+  overflow-x: auto;
+  gap: 35px 20px;
+}
+
+@media (min-width:1080px) and (max-width:1380px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (min-width:780px) and (max-width:1079px) {
+  .container {
+    width: 700px;
+  }
+}

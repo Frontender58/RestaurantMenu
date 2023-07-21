@@ -1,0 +1,96 @@
+$white:  #FFFFFF;
+$orange: #D58C51;
+$darkBlack: #161516;
+
+.wrap {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), 
+    url('../../../public/images/backgroundProduct.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: $white;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  height: 734px;
+}
+
+.header {
+  margin: 47px 50px 23px 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+}
+
+.pic {
+  margin-left: 140px;
+  width: 502px;
+  height: 503px;
+}
+
+.inner {
+  margin: 60px 5% 0 14%;
+}
+
+.title {
+  width: 80%;
+  margin-bottom: 23px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: $orange;
+}
+
+.desc {
+  height: 246px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin-right: 6px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.weight {
+  margin-right: 13.2%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.btnBasket {
+  width: 200px;
+  height: 42px;
+  background-color: #D58C51;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $darkBlack;
+  font-family: 'Montserrat';
+  border: none;
+}
+
+
+

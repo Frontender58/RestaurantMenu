@@ -1,0 +1,123 @@
+$white:  #FFFFFF;
+$orange: #D58C51;
+$lightBlack: #131313;
+$darkBlack: #161516;
+$brown: #301411;
+$alert: #FF0B0B;
+
+.registration_form {
+  position: relative;
+
+  &__title {
+    margin-top: 16px;
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    color: $darkBlack;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__inner {
+    height: 154px;
+  }
+
+
+  &__place {
+    display: block;
+    margin: 0 auto 15px auto;
+    padding: 4px 0 0 18px;
+    width: 91.5%;
+    height: 39px;
+    box-sizing: border-box;
+    border: 1px solid $orange;
+    border-radius: 61px;
+
+
+    &::placeholder {
+      font-family: 'Montserrat';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: $darkBlack;
+    }
+  }
+
+  &__cb {
+    position: absolute;
+    appearance: none;
+
+    &:checked + .registration_form__agreement::after {
+      display: block;
+    }    
+  }
+
+  &__agreement {
+    margin-left: 47px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: $brown;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 182px;
+      left: 20px;
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: 1px solid $orange;
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: "✓";
+      position: absolute;
+      top: 182px;
+      left: 22px;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 18px;
+      color: $brown;
+      display: none;
+    }
+  }
+
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 42px;
+    padding: 13px auto 12px auto;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $lightBlack;
+    background-color: $orange;
+    font-family: 'Montserrat';
+  }
+}
+
+.alertInputLogin {
+  position: absolute;
+  top: 115px;
+  left: 8%;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: $alert;
+}
+
+.alertInputPass {
+  position: absolute;
+  top: 169px;
+  left: 8%;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: $alert;
+}

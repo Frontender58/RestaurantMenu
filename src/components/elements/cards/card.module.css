@@ -1,0 +1,79 @@
+.card {
+  width: 310px;
+  height: 550px;
+  color: white;
+  border: 1px solid #D58C51;
+}
+
+.card:hover {
+  color: #D58C51;
+}
+
+.card:hover  .btn {
+  background-color: #D58C51;
+  border-color: #D58C51;
+}
+
+.preview {
+  display: block;
+  margin: 43px auto 31px auto;
+  width: 270px;
+  height: 271px;
+}
+
+.text {
+  margin-right: 21px;
+  margin-bottom: 25px;
+  margin-left: 21px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.title {
+  margin-bottom: 13px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 21px;
+  margin-right: 24px;
+}
+
+.price {
+  margin-right: 9px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.weight {
+  margin-right: 111px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.btn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.btnPlus {
+  margin: 8px;
+}

@@ -1,0 +1,35 @@
+.headerBasket {
+  display: flex;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: right;
+  align-items: center;
+}
+
+.headerBasketText {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.headerBasketBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #D58C51;
+  text-align: center;
+}
+
+.headerBasketBtn:hover {
+  background-color: #161516;
+}
+
+.headerBasketPic {
+  margin-top: 14px;
+  width: 21px;
+  height: 20px;
+}
+
+.basketPic {
+  color: #FFFFFF;
+}

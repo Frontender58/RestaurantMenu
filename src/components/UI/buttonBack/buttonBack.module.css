@@ -1,0 +1,17 @@
+.circle {
+  margin-right: 4.8%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #D58C51;
+}
+
+.circle:hover {
+  background-color: #FFFFFF;
+}
+
+.circleArrow {
+  padding: 12px 10px 11px 10.5px;
+  width: 9.6px;
+  height: 6.75px;
+}
